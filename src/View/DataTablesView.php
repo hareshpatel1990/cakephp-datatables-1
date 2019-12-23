@@ -29,7 +29,7 @@ class DataTablesView extends AppView
 {
     public $layout = 'DataTables.datatables';
 
-    public function initialize()
+    public function initialize(): void
     {
         parent::initialize();
         $this->autoLayout = false;

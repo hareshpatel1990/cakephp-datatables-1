@@ -33,7 +33,7 @@ class DataTablesHelper extends Helper
     public $wasRendered = [];
     public $json = [];
 
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
         $this->json['data'] = [];
