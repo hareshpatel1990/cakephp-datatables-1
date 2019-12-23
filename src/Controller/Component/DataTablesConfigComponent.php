@@ -55,7 +55,7 @@ class DataTablesConfigComponent extends Component
         'DataTables\Controller\FocSearchRequestTrait',
     ];
 
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         $this->dataTableConfig = &$config['DataTablesConfig'];
         parent::initialize($config);
